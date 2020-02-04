@@ -1,0 +1,20 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: otelcol
+spec:
+  selector:
+    name: otelcol
+  ports:
+  - protocol: TCP
+    name: oc-receiver
+    port: 55678
+    targetPort: 55678
+  - protocol: UDP
+    name: jaeger-receiver
+    port: 6831
+    targetPort: 6831
+  - protocol: TCP
+    name: http-port
+    port: 80
+    targetPort: 80

@@ -11,6 +11,7 @@ require (
 	github.com/gogo/status v1.0.3 // indirect
 	github.com/grafana/tanka v0.5.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 // indirect
+	github.com/jsonnet-bundler/jsonnet-bundler v0.1.0 // indirect
 	github.com/opentracing-contrib/go-grpc v0.0.0-20180928155321-4b5a12d3ff02 // indirect
 	github.com/opentracing-contrib/go-stdlib v0.0.0-20190205184154-464eb271c715
 	github.com/opentracing/opentracing-go v1.0.2

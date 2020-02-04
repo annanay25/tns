@@ -23,7 +23,7 @@ spec:
           containerPort: 80
         env:
         - name: JAEGER_AGENT_HOST
-          value: jaeger.default.svc.cluster.local
+          value: otelcol.default.svc.cluster.local
         - name: JAEGER_TAGS
           value: cluster=docker,namespace=default
         - name: JAEGER_SAMPLER_TYPE
